@@ -12,7 +12,7 @@ $sql = new Hcode\DB\Sql();
 
 $results = $sql->select("SELECT * FROM tb_users");
 
-echo json_encode($results);
+print (json_encode($results));
 
 });
 
